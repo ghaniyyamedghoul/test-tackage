@@ -4,11 +4,11 @@ with open("README.md", "r") as fh:
     description = fh.read()
   
 setuptools.setup(
-    name="test-package",
+    name="test-package-ghaniya",
     version="0.0.1",
     author="GhaniyyaMedghoul",
     author_email="gmedghoul@aneo.fr",
-    packages=["test_package"],
+    packages=["test_package_ghaniyya"],
     description="A sample test package",
     long_description=description,
     long_description_content_type="text/markdown",
